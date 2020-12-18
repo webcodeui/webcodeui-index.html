@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #1E90FF ;
+}
+
+/*   all icons css */
+.bx1{
+    font-size: 4rem;
+    color: rgb(207, 120, 120);
+}
+.bx2{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.bxp1{
+    position:fixed;
+    left: 0%;
+}
+.bxp2{
+    position: fixed;
+    top: 4%;
+    left: 4%;
+}
+.bx-fade-up{
+    animation-duration: 5s !important;
+}
+.bx3{
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+.bxs-error{
+    color: red;
+    font-size: 1.1rem;
+}
+.bx5{
+    font-size: 2.5rem;
+    text-shadow: 1px 2px rgba(56, 55, 55, 0.329);
+    color: #fff;
+}
+.bx6{
+    position: absolute;
+    top: 2%;
+    right: 2.9%;
+    font-size: 2.5rem;
+    color: #000;
+    animation-duration: 3s !important;
+    text-shadow: 1px 2px rgba(56, 55, 55, 0.329);
+}
+.copy1{
+    
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 2%;
+    right: 39%;
+}
+
+/* icons css end */
+
+.head{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    width: 100%;
+    height: 18vh;
+    background-color: #1E90FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid transparent;
+    border-radius: 0rem 0rem 0.9rem 0.9rem;
+}
+.covid{
+    width: 15%;
+    margin-left: 0.2rem;
+    border-right: 2px solid #fff;
+}
+.covid_19{
+    color: #fff;
+    padding: 1.2rem 1.4rem 1.2rem 0rem;
+}
+.brand h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.6rem;
+    color: #fff;
+    text-shadow: 1px 2px  rgba(0, 0, 0, 0.267);
+}
+.skills_list{
+    width: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin-top: 1.3rem;
+}
+.skills_name{
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 600;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    margin-left: 0.2rem;
+    padding-right: 0.7rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu_list{
+    padding: 2rem 0rem 2rem 0rem;
+      z-index: 1000;
+      width: 65%;
+      height: 90vh;
+      background-color: #fff;
+      position: absolute;
+      top: 6.0%;
+      right: 1.5%;
+      align-items: center;
+      text-align: center;
+      display: none;
+      border: 1px solid transparent;
+      border-radius: 0.6rem;
+}
+.quick{
+    margin: 2rem;
+}
+.main_menu{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: auto;
+    height: 50vh;
+    color: #1E90FF ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .tab:after{
+    background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display:inline-block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background:#000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+
+}
+  .tab:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  /* run text*/
+  .profile{
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+  .run_text h1{
+      margin-bottom: 0.8rem;
+    color: #000;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid#1E90FF; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 10s steps(40, end) infinite,
+      blink-caret .5s step-end infinite;
+      animation-delay: 1s !important;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#1E90FF}
+  }
+
+  .main_profile{
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(58, 58, 58, 0.041);
+  }
+  

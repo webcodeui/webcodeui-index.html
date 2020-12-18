@@ -1,0 +1,55 @@
+@media screen and (max-width:900px ){
+
+    .brand_name{
+        width: 100%;
+    }
+    .covid{
+        width: 30%;
+        display: inline;
+        position: absolute;
+        top: 5.0%;
+        left: 1.0%;
+        border: none;
+    }
+    .head{
+        padding-right: 3%;
+    }
+    .brand{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .run_text h1{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width:720px){
+    .skills_list{
+        display: none;
+    }
+    .covid{
+        width: 30%;
+        display: inline;
+        position: absolute;
+        top: 5.0%;
+        left: 1.0%;
+        border: none;
+    }
+    .covid_19{
+        padding: 0rem 1.4rem 1.2rem 0rem;
+    }
+    .bx2{
+        display: none!important ;
+    }
+    .menu_list{
+        width: 95%;
+    }
+    .main_menu{
+        height: 67vh;
+    }
+    .run_text h1{
+        font-size: 0.9rem;
+    }
+}
